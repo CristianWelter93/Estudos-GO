@@ -40,3 +40,9 @@ Nele encontrasse o conteúdo relacionado a declaração de variáveis em go.
 ### loop.go
 
 É demonstrado as diferentes formas de se utilizar o for, já que não existe while e nem do while em GO.
+
+## Anotações relevantes sobre a linguagem
+
+As variáveis diferenciem letras maiúsculas de minúsculas, então nomeAluno e NOMEALUNO seriam variaveis diferentes.
+
+Se uma variável iniciar com uma letra em caixa alta, então essa variável é acessível fora do pacote em que foi declarada (ou exported). Se uma variável iniciar com uma letra em caixa baixa, então ela está disponível apenas dentro do pacote em que foi declarada.
