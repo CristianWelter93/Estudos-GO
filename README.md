@@ -43,6 +43,8 @@ Nele encontrasse o conteúdo relacionado a declaração de variáveis em go.
 
 ## Anotações relevantes sobre a linguagem
 
-As variáveis diferenciem letras maiúsculas de minúsculas, então nomeAluno e NOMEALUNO seriam variaveis diferentes.
+As variáveis diferenciem letras maiúsculas de minúsculas, então nomeAluno e NOMEALUNO seriam variáveis diferentes.
 
 Se uma variável iniciar com uma letra em caixa alta, então essa variável é acessível fora do pacote em que foi declarada (ou exported). Se uma variável iniciar com uma letra em caixa baixa, então ela está disponível apenas dentro do pacote em que foi declarada.
+
+Variáveis declaradas com o _ = seriam os casos em que a variável é declarada mas nunca é usada, já que o golang não permite isso. Também é utilizado quando é retornando vários parâmetros porém só queremos utilizar um em específico
