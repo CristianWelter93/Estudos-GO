@@ -29,6 +29,11 @@ func main() {
 		}
     }
 
-	fmt.Println(valor)
+	nomes := []string{"joão", "maria", "jose", "luders", "carlos", "carla"}
+
+	fmt.Println("\nTemos como imprimir todos os elementos de um vetor utilizando o 'range'")
+	for i, nome := range nomes {
+		fmt.Println(i, nome)
+	}
 }
 

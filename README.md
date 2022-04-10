@@ -40,4 +40,3 @@ Nele encontrasse o conteúdo relacionado a declaração de variáveis em go.
 ### loop.go
 
 É demonstrado as diferentes formas de se utilizar o for, já que não existe while e nem do while em GO.
-
